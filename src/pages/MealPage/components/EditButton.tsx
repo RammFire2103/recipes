@@ -11,7 +11,9 @@ export const RecipeEditButton = ({
 
   return (
     <div className="recipe-edit-button">
-      <button onClick={() => navigate(`../edit/${id}`)}>{children}</button>
+      <button onClick={() => navigate(`../recipes/edit/${id}`)}>
+        {children}
+      </button>
     </div>
   );
 };

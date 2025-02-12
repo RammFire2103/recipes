@@ -13,7 +13,7 @@ const CardEditButton: FC = () => {
   return (
     <button
       className="card__button card__button_edit"
-      onClick={() => console.log(navigate(`/meal/${context.idMeal}`))}
+      onClick={() => console.log(navigate(`./meal/${context.idMeal}`))}
     >
       Let's cook
     </button>

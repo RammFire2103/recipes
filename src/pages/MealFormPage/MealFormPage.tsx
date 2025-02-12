@@ -52,7 +52,7 @@ const EditMealPage: React.FC = () => {
           JSON.stringify([...filtered, NewMeal])
         );
 
-        navigate(`../../meal/${id}`);
+        navigate(`../../recipes/meal/${id}`);
       } else {
         localStorage.setItem("localMeals", JSON.stringify([NewMeal]));
       }

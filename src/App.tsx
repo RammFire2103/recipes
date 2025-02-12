@@ -30,9 +30,9 @@ const App: React.FC = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/meal/:id" element={<MealPage />} />
-        <Route path="/edit/:id" element={<MealFormPage />} />
+        <Route path="/recipes/" element={<Home />} />
+        <Route path="/recipes/meal/:id" element={<MealPage />} />
+        <Route path="/recipes/edit/:id" element={<MealFormPage />} />
       </Routes>
       <Footer />
     </Router>
